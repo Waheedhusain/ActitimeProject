@@ -17,6 +17,7 @@ public class LoginPage {
 		@FindBy (xpath = "//div[.='Login ']")
 		private WebElement lgbtn;
 		
+		
 		//initialization
 		public LoginPage(WebDriver driver) {
 			PageFactory.initElements(driver, this);

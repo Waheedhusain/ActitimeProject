@@ -21,10 +21,10 @@ public class TaskTest extends BaseClass{
 		tp.getNewCustomer().click();
 		
 		FileLibrary f = new FileLibrary();
-		String AxisName = f.readDatafromexcelFile("Sheet1",3, 1);
+		String AxisName = f.readDatafromexcelFile("Sheet1",2, 1);
 		tp.getCustName().sendKeys(AxisName);
 		
-		String desc = f.readDatafromexcelFile("Sheet1", 4, 2);
+		String desc = f.readDatafromexcelFile("Sheet1", 2, 2);
 		tp.getCustDescp().sendKeys(desc);
 		Thread.sleep(3000);
 		tp.getCreateCust().click();

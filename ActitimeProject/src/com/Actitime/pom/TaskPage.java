@@ -30,6 +30,8 @@ public class TaskPage {
 	   @FindBy(xpath = "//a[.='Logout']")
 	   private WebElement Logout;
 	   
+	   
+	   
 	   public WebElement getLogout() {
 	 		return Logout;
 	 	}

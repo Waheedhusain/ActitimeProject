@@ -11,13 +11,11 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 /*
  * This class is generic class which is having non static methods to perform data driven testing 
  * @author 
- * 
- * 
  * */
 public class FileLibrary {
 	/**
-	 * This method is a non static methd which is use to read data from property file
-	 * @param key
+	 * This method is a non static methOd which is use to read data from property file
+	 * @parameter key
 	 * @return
 	 * @throws IOException
 	 */

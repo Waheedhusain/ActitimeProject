@@ -19,11 +19,13 @@ public class HomePage {
 		@FindBy(xpath="//a[.='Logout']")
 		private WebElement LogoutLink;
 		
+		
 		// initiliaTION
 		public HomePage(WebDriver driver) {
 			PageFactory.initElements(driver, this);
 		}
 	
+		
 		//utilization
 
 		public WebElement getTaskLink() {
