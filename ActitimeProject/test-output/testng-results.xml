@@ -11,40 +11,47 @@
       <![CDATA[logged in succesfully]]>
     </line>
     <line>
-      <![CDATA[DataBase DisConnected Succesfully]]>
+      <![CDATA[Browser closed]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-03-31T00:16:51 IST" name="Default suite" finished-at="2023-03-31T00:17:22 IST" duration-ms="30298">
+  <suite started-at="2023-03-31T11:52:04 IST" name="Default suite" finished-at="2023-03-31T11:52:28 IST" duration-ms="24929">
     <groups>
     </groups>
-    <test started-at="2023-03-31T00:16:51 IST" name="Default test" finished-at="2023-03-31T00:17:22 IST" duration-ms="30298">
+    <test started-at="2023-03-31T11:52:04 IST" name="Default test" finished-at="2023-03-31T11:52:28 IST" duration-ms="24929">
       <class name="com.Actitime.TestScript.TaskTest">
-        <test-method is-config="true" signature="databaseConnection()[pri:0, instance:com.Actitime.TestScript.TaskTest@618b19ad]" started-at="2023-03-31T00:16:51 IST" name="databaseConnection" finished-at="2023-03-31T00:16:51 IST" duration-ms="25" status="PASS">
+        <test-method is-config="true" signature="databaseConnection()[pri:0, instance:com.Actitime.TestScript.TaskTest@74235045]" started-at="2023-03-31T11:52:04 IST" name="databaseConnection" finished-at="2023-03-31T11:52:04 IST" duration-ms="21" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[DataBase Connected Succesfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- databaseConnection -->
-        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:com.Actitime.TestScript.TaskTest@618b19ad]" started-at="2023-03-31T00:16:51 IST" name="launchbrowser" finished-at="2023-03-31T00:17:08 IST" duration-ms="16947" status="PASS">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:com.Actitime.TestScript.TaskTest@74235045]" started-at="2023-03-31T11:52:04 IST" name="launchbrowser" finished-at="2023-03-31T11:52:15 IST" duration-ms="11683" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser Launched]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.Actitime.TestScript.TaskTest@618b19ad]" started-at="2023-03-31T00:17:08 IST" name="login" finished-at="2023-03-31T00:17:09 IST" duration-ms="412" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Actitime.TestScript.TaskTest@74235045]" started-at="2023-03-31T11:52:15 IST" name="login" finished-at="2023-03-31T11:52:16 IST" duration-ms="400" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[logged in succesfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="CreateCustomer()[pri:0, instance:com.Actitime.TestScript.TaskTest@618b19ad]" started-at="2023-03-31T00:17:09 IST" name="CreateCustomer" finished-at="2023-03-31T00:17:22 IST" duration-ms="12828" status="PASS">
+        <test-method signature="CreateCustomer()[pri:0, instance:com.Actitime.TestScript.TaskTest@74235045]" started-at="2023-03-31T11:52:16 IST" name="CreateCustomer" finished-at="2023-03-31T11:52:28 IST" duration-ms="12476" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateCustomer -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.Actitime.TestScript.TaskTest@618b19ad]" started-at="2023-03-31T00:17:22 IST" name="logout" finished-at="2023-03-31T00:17:22 IST" duration-ms="2" status="FAIL">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Actitime.TestScript.TaskTest@74235045]" started-at="2023-03-31T11:52:28 IST" name="closebrowser" finished-at="2023-03-31T11:52:28 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Actitime.TestScript.TaskTest@74235045]" started-at="2023-03-31T11:52:28 IST" name="logout" finished-at="2023-03-31T11:52:28 IST" duration-ms="2" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
@@ -54,25 +61,16 @@
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
-at com.Actitime.GenericLibrary.BaseClass.logout(BaseClass.java:70)
+at com.Actitime.GenericLibrary.BaseClass.logout(BaseClass.java:71)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+at org.testng.TestRunner.afterRun(TestRunner.java:914)
+at org.testng.TestRunner.run(TestRunner.java:605)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
 at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
 at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
@@ -92,15 +90,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Actitime.TestScript.TaskTest@618b19ad]" started-at="2023-03-31T00:17:22 IST" name="closebrowser" finished-at="2023-03-31T00:17:22 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="databaseDisConnection()[pri:0, instance:com.Actitime.TestScript.TaskTest@74235045]" started-at="2023-03-31T11:52:29 IST" name="databaseDisConnection" finished-at="2023-03-31T11:52:29 IST" duration-ms="0" status="SKIP">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="databaseDisConnection()[pri:0, instance:com.Actitime.TestScript.TaskTest@618b19ad]" started-at="2023-03-31T00:17:23 IST" name="databaseDisConnection" finished-at="2023-03-31T00:17:23 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[DataBase DisConnected Succesfully]]>
-            </line>
           </reporter-output>
         </test-method> <!-- databaseDisConnection -->
       </class> <!-- com.Actitime.TestScript.TaskTest -->
